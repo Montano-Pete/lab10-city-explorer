@@ -6,13 +6,16 @@ const app = require('../lib/app');
 describe('app routes', () => {
   describe('routes', () => {
 
-    test('', async() => {
+    test('gets desired location object', async() => {
 
       const expectation = {
+        'formatted_query': 'Seattle, King County, Washington, USA',
+        'latitude': '47.6038321',
+        'longitude': '-122.3300624',
       };
 
       const data = await fakeRequest(app)
-        .get('/')
+        .get('/location?search=seattle')
         .expect('Content-Type', /json/)
         .expect(200);
 
