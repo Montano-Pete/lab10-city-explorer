@@ -26,15 +26,15 @@ describe('app routes', () => {
 
       const expectation = [
         {
-          'forecast': 'Broken clouds',
+          'forecast': 'Thunderstorm with heavy rain',
           'time': 'Thursday, June 24, 2021'
         },
         {
-          'forecast': 'Overcast clouds',
+          'forecast': 'Thunderstorm with rain',
           'time': 'Friday, June 25, 2021'
         },
         {
-          'forecast': 'Broken clouds',
+          'forecast': 'Overcast clouds',
           'time': 'Saturday, June 26, 2021'
         },
         {
@@ -42,7 +42,7 @@ describe('app routes', () => {
           'time': 'Sunday, June 27, 2021'
         },
         {
-          'forecast': 'Overcast clouds',
+          'forecast': 'Scattered clouds',
           'time': 'Monday, June 28, 2021'
         },
         {
@@ -50,11 +50,11 @@ describe('app routes', () => {
           'time': 'Tuesday, June 29, 2021'
         },
         {
-          'forecast': 'Broken clouds',
+          'forecast': 'Scattered clouds',
           'time': 'Wednesday, June 30, 2021'
         },
         {
-          'forecast': 'Overcast clouds',
+          'forecast': 'Scattered clouds',
           'time': 'Thursday, July 1, 2021'
         },
         {
@@ -66,7 +66,7 @@ describe('app routes', () => {
           'time': 'Saturday, July 3, 2021'
         },
         {
-          'forecast': 'Overcast clouds',
+          'forecast': 'Broken clouds',
           'time': 'Sunday, July 4, 2021'
         },
         {
@@ -78,15 +78,15 @@ describe('app routes', () => {
           'time': 'Tuesday, July 6, 2021'
         },
         {
-          'forecast': 'Broken clouds',
+          'forecast': 'Overcast clouds',
           'time': 'Wednesday, July 7, 2021'
         },
         {
-          'forecast': 'Overcast clouds',
+          'forecast': 'Moderate rain',
           'time': 'Thursday, July 8, 2021'
         },
         {
-          'forecast': 'Thunderstorm with rain',
+          'forecast': 'Broken clouds',
           'time': 'Friday, July 9, 2021'
         }
       ];
